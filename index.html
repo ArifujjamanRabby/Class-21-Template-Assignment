@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Class 21 Template Assignment</title>
+</head>
+
+<body>
+
+    <header class="container-fluid px-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand text-primary" href="#">LFWF Academy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Service
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Carousal Start -->
+
+    <section class="carousal">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active">
+                    <img src="img/landscape.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block text-div">
+                        <h5 class="h1">First slide label 1</h5>
+                        <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="img/lake.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block text-div">
+                        <h5 class="h1">Second slide label 2</h5>
+                        <p class="fs-4">Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="img/landscape.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block text-div">
+                        <h5 class="h1">Third slide label 3</h5>
+                        <p class="fs-4">Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- Carousal end -->
+
+    <!-- blockquots start -->
+
+    <section class="blog-section my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/hero.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="col-lg-8">
+                    <h2>Blockquote use kora hoysa</h2>
+                    <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, eaque?ipsum
+                            dolor sit, amet consectetur adipisicing elit. Architecto, eaque?ipsum dolor sit,
+                            amet consectetur adipisicing elit. Architecto, eaque?</p>
+                    </blockquote>
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, eaque?ipsum
+                                dolor sit, amet consectetur adipisicing elit. Architecto, eaque?ipsum dolor sit,
+                                amet consectetur adipisicing elit. Architecto, eaque?</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            LFWF Academy
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blockquots end -->
+
+    <hr class="featurette-divider">
+
+    <!-- form And Table -->
+
+    <section class="form-table py-5 bg-light">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-6">
+                    <h3 class="text-success pb-3">
+                        Bootstrap5 Table
+                    </h3>
+                    <table class="table table-responsive table-hover">
+                        <thead>
+                            <tr class="table-dark">
+                                <th scope="col">No.</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Class</th>
+                                <th scope="col">Roll</th>
+                                <th scope="col">Section</th>
+                                <th scope="col">Address</th>
+                                <th scope="col">Contact</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-primary">
+                                <th scope="row">1</th>
+                                <td>Shahid</td>
+                                <td>Ten</td>
+                                <td>15</td>
+                                <td>A</td>
+                                <td>Dhaka</td>
+                                <td>+8809734982</td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th scope="row">2</th>
+                                <td>Arif</td>
+                                <td>Ten</td>
+                                <td>16</td>
+                                <td>A</td>
+                                <td>Dhaka</td>
+                                <td>+8809734982</td>
+                            </tr>
+                            <tr class="table-success">
+                                <th scope="row">3</th>
+                                <td>Hasib</td>
+                                <td>Ten</td>
+                                <td>17</td>
+                                <td>A</td>
+                                <td>Dhaka</td>
+                                <td>+8809734982</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <th scope="row">4</th>
+                                <td>Hasib</td>
+                                <td>Ten</td>
+                                <td>18</td>
+                                <td>A</td>
+                                <td>Dhaka</td>
+                                <td>+8809734982</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="row">5</th>
+                                <td>Hasib</td>
+                                <td>Ten</td>
+                                <td>19</td>
+                                <td>A</td>
+                                <td>Dhaka</td>
+                                <td>+8809734982</td>
+                            </tr>
+                            <tr class="table-info">
+                                <th scope="row">6</th>
+                                <td>Hasib</td>
+                                <td>Ten</td>
+                                <td>20</td>
+                                <td>A</td>
+                                <td>Dhaka</td>
+                                <td>+8809734982</td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th scope="row">7</th>
+                                <td>Hasib</td>
+                                <td>Ten</td>
+                                <td>21</td>
+                                <td>A</td>
+                                <td>Dhaka</td>
+                                <td>+8809734982</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <th scope="row">8</th>
+                                <td>Hasib</td>
+                                <td>Ten</td>
+                                <td>22</td>
+                                <td>A</td>
+                                <td>Dhaka</td>
+                                <td>+8809734982</td>
+                            </tr>
+                            <tr class="table-success">
+                                <th scope="row">9</th>
+                                <td>Hasib</td>
+                                <td>Ten</td>
+                                <td>23</td>
+                                <td>A</td>
+                                <td>Dhaka</td>
+                                <td>+8809734982</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <!-- modal start -->
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary  mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- modal end -->
+
+
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="text-success pb-3">
+                        Bootstrap5 Table
+                    </h3>
+                    <form action="#" class="needs-validation" novalidate="">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="First name" value=""
+                                    required="">
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Last name" value=""
+                                    required="">
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address for shipping updates.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="massage" class="form-label">Massage</label>
+                                <textarea class="form-control" id="Massage"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <div class="input-group">
+
+                                    <label class="form-label" for="inputGroupFile01">Choose File</label>
+                                    <div class="input-group mb-3">
+                                        <input type="file" class="form-control" id="inputGroupFile01">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <select class="form-select" required="">
+                                    <option value="1" selected>Select Your Country</option>
+                                    <option>United States</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid country.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-check-label">Choose your Course</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
+                                        checked>
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Web Design
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Graphic Design
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-success w-25" type="submit">submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="featurette-divider">
+
+    <!-- form And Table -->
+
+    <!-- card & progress bar -->
+
+    <section class="card-progress-bar py-5">
+        <div class="container">
+            <h3 class="text-center pb-5">Bootstrap Card And Progress Bar</h3>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header text-center h4">
+                            This is header
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <div class="card">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">This is card list</li>
+                                    <li class="list-group-item">
+                                        <div>This is card list</div>
+                                        <div>This is card list</div>
+                                    </li>
+                                    <li class="list-group-item">This is card list</li>
+                                    <li class="list-group-item">This is card list</li>
+                                </ul>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+                                repellendus sed consectetur, autem officiis suscipit quae provident sapiente totam
+                                optio.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                            <div class="pt-2">
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center h4">
+                            This is footer
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mt-5">
+                        <p>HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                        <p>CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                                aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <p>Js</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p>Wordpress</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                        <h3>Text-trancate bootstrap class use kora 3 dot ana hoysa</h3>
+                        <p class="text-truncate">Praeterea iter est quasdam iter quas ex communi.praeter Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Aut facilis iure unde tempore quaerat quis
+                            ducimus delectus facere excepturi autem.</p>
+                        <div class="alert alert-danger mt-4" role="alert">
+                            A simple danger alert—check it out!
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header text-center h4">
+                            This is header
+                        </div>
+                        <img src="img/oreng.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+                                blanditiis soluta voluptas aperiam ut repellat, veritatis esse enim voluptatibus hic?
+                            </p>
+                        </div>
+                        <div class="card-footer text-center h4">
+                            This is footer
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="featurette-divider">
+
+    <section class="blog-card py-5 bg-light">
+        <div class="container">
+            <h3 class="text-success pb-5 text-center">
+                Stretched-Link Bootstrap class use kora ay kaj kora hoyse
+            </h3>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="img/blog-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card with stretched link</h5>
+                            <p class="card-text">Some quick example text to build on the card title
+                                and make up the bulk of the card's content.Some
+                                quick example text to build on the card title and make
+                                up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="img/blog-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card with stretched link</h5>
+                            <p class="card-text">Some quick example text to build on the card title
+                                and make up the bulk of the card's content.Some
+                                quick example text to build on the card title and make
+                                up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="img/blog-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card with stretched link</h5>
+                            <p class="card-text">Some quick example text to build on the card title
+                                and make up the bulk of the card's content.Some
+                                quick example text to build on the card title and make
+                                up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pagination start -->
+
+    <section class="pagination-section my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pagination end -->
+
+    <!-- footer start -->
+
+    <footer class=" bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <p class="text-light mb-0 text-center">&copy; All right Reserved designe by LFWF</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
